@@ -1,8 +1,9 @@
-const { test, expect } = require('@playwright/test');
+const {test, expect} = require('@playwright/test');
+import {pageURL,} from './pageURL.js'
 
-test('Check add products page', async ({ page }) => {
-    await page.goto('http://localhost:8080/add-to-shopping-list');
-    const form = await page.$('input');
+test('Check add products page', async ({page}) => {
+    await page.goto(pageURL + 'Add-Product');
+    const form = await page.$('form');
     expect(form).toBeTruthy();
-  });
+});
   
