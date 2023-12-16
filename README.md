@@ -1,2 +1,4 @@
 # qceka88-exam
- Repository for REgular Exam: Software Engineering & DevOps
+ Repository for Regular Exam: Software Engineering & DevOps
+
+# SoftUni username: qceka88
